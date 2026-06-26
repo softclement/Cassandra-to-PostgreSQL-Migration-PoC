@@ -944,7 +944,7 @@ customers    | 368 kB
 
 ---
 
-### Client Demo: Side-by-Side Capability Comparison
+### Side-by-Side Capability Comparison
 
 | Query Type | Cassandra 5.0 | PostgreSQL 18 (post-migration) |
 |---|---|---|
