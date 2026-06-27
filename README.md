@@ -344,7 +344,7 @@ wall_t0  = time.time()
 
 print("╔══════════════════════════════════════════════════════╗")
 print("║         Cassandra Data Generator — Starting          ║")
-print(f"║  Script Start : {ts()}                         ║")
+print(f"║  Script Start : {ts()}                            ║")
 print("╚══════════════════════════════════════════════════════╝")
 
 # ── Step 1: Customers ──────────────────────────────────────────────────────────
@@ -407,13 +407,14 @@ print(f"""
 ║  Step 2 — Orders      : {total_orders:>8,}                     ║
 ║  Step 3 — Order Items : {total_items:>8,}                     ║
 ║  ──────────────────────────────────────────────────  ║
-║  Total rows           : {total_rows:>8,}                   ║
-║  Script End           : {ts()}                      ║
-║  Total Time           : {wall_elapsed:>7.1f}s                    ║
+║  Total rows           : {total_rows:>8,}                    ║
+║  Script End           : {ts()}                     ║
+║  Total Time           : {wall_elapsed:>7.1f}s                     ║
 ╚══════════════════════════════════════════════════════╝
 """)
 cluster.shutdown()
 EOF
+
 ```
 
 Run it:
