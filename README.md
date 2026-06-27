@@ -1285,7 +1285,7 @@ ts() { date +"%H:%M:%S"; }
 echo ""
 echo "╔══════════════════════════════════════════════════════╗"
 echo "║         Migration Benchmark — Starting               ║"
-echo "║  Script Start : $(ts())                         ║"
+echo "║  Script Start : $(ts)                            ║"
 echo "╚══════════════════════════════════════════════════════╝"
 
 WALL_START=$(date +%s)
