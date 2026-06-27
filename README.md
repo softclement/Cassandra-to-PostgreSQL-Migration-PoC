@@ -1521,5 +1521,3 @@ cassandra2pg/
 - A JOIN + GROUP BY + date-range query that is impossible natively in Cassandra executes in **0.143 ms** in PostgreSQL using index scans — no application-side aggregation required.
 
 ---
-
-*PoC authored for client demonstration purposes. All data is synthetically generated.*
