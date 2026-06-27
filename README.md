@@ -403,13 +403,13 @@ print(f"""
 ╔══════════════════════════════════════════════════════╗
 ║         Data Generation Complete ✅                  ║
 ╠══════════════════════════════════════════════════════╣
-║  Step 1 — Customers   : {NUM_CUSTOMERS:>8,}                  ║
-║  Step 2 — Orders      : {total_orders:>8,}                  ║
-║  Step 3 — Order Items : {total_items:>8,}                  ║
-║  ─────────────────────────────────────────────────  ║
-║  Total rows           : {total_rows:>8,}                  ║
-║  Script End           : {ts()}                    ║
-║  Total Time           : {wall_elapsed:>7.1f}s                   ║
+║  Step 1 — Customers   : {NUM_CUSTOMERS:>8,}                     ║
+║  Step 2 — Orders      : {total_orders:>8,}                     ║
+║  Step 3 — Order Items : {total_items:>8,}                     ║
+║  ──────────────────────────────────────────────────  ║
+║  Total rows           : {total_rows:>8,}                   ║
+║  Script End           : {ts()}                      ║
+║  Total Time           : {wall_elapsed:>7.1f}s                    ║
 ╚══════════════════════════════════════════════════════╝
 """)
 cluster.shutdown()
