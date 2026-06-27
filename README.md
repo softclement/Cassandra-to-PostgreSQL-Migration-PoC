@@ -1214,7 +1214,7 @@ ALTER TABLE orders ADD metadata TEXT;
 UPDATE orders SET metadata = '{\"shipping_provider\":\"DHL\",\"priority\":\"express\"}'
 WHERE customer_id = aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee
   AND order_date  = '2023-06-15 10:00:00'
-  AND order_id    = ffffffff-gggg-hhhh-iiii-jjjjjjjjjjjj;
+  AND order_id    = ffffffff-gggg-hhhh-iiii-jjjjjjjjjjjj
 "
 ```
 
