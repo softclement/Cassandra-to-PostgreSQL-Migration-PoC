@@ -1285,7 +1285,7 @@ ts() { date +"%H:%M:%S"; }
 echo ""
 echo "╔══════════════════════════════════════════════════════╗"
 echo "║         Migration Benchmark — Starting               ║"
-echo "║  Script Start : $(ts)                            ║"
+echo "║  Script Start : $(ts)                             ║"
 echo "╚══════════════════════════════════════════════════════╝"
 
 WALL_START=$(date +%s)
@@ -1353,7 +1353,7 @@ WALL_ELAPSED=$((WALL_END - WALL_START))
 echo ""
 echo "╔══════════════════════════════════════════════════════╗"
 echo "║         Benchmark Complete ✅                        ║"
-echo "║  Script End   : $(ts())                         ║"
+echo "║  Script End   : $(ts)                            ║"
 echo "║  Total Time   : ${WALL_ELAPSED}s                                 ║"
 echo "╚══════════════════════════════════════════════════════╝"
 echo ""
